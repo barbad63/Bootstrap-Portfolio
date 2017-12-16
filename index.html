@@ -3,7 +3,7 @@
 <head>
 	<title>Don's Basic Profile</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -11,49 +11,62 @@
 
 <body>
 	<header>
-		<mark>
-			<h1>Don Barbarits</h1>
-		</mark>
+		<nav class="navbar bg-light justify-content-between">
+			<div class = "container">
+		  		<h1 class="navbar-brand">Don Barbarits</h1>
+				<nav class="nav">
 
-		<section id = "top">
-			<a class="next" href="index.html">About</a>
-			<!-- links for about  -->
-			<a class="next" href="portfolio.html">Portfolio</a>
-			<!-- link for portfolio -->
-			<a class="next" href="contact.html">Contact</a>		
-			<!-- link for contact -->
-		</section>
+		       		 <a class="nav-link active" href="index.html">About </a>
 
+		      		 <a class="nav-link active" href="portfolio.html">Portfolio</a>
+
+		     		 <a class="nav-link active" href="contact.html">Contact</a>
+
+				</nav>
+			</div>
 	</header>
 	
-	<section id = "mid">
-
-		<main>
-			<h2> About Me</h2>
-			<hr>
-			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-izaWVW5sGCPPFsLz-2ZgLDcXLVag0oVOGqEnHb13NgFOpnCq">
-			<p>I am a great guy who smokes cigars. THIS IS A TEST message. You are signed up for Portsmouth's CodeRED notification system. We will continue to use this system to keep you appraised of snow emergencies and parking bans. Please review our new website: https://www.cityofportsmouth.com/publicworks/snowrelatedimpacts</p>
-			<h5></h5>
-		</main>
-
-		<aside>
- 
-<!-- Use fontawesome.io.icons
-	https://www.iconfinder.com/icons/28298/48x48_linkedin_icon
- -->		
-
-			<h3>Connect with me</h3>
-			<hr>
-			<!-- <a href="#">kitty.html</a> -->
-			<a href="http://www.linkedin.com/in/donbarbarits/" rel="publisher" class="fa fa-linkedin" target="_blank"></a>
-			<!-- links for about  -->
-			<a href="https://www.facebook.com/donald.barbarits/" rel="publisher" class="fa fa-facebook" target="_blank"></a>
-			<!-- link for portfolio -->
-			<a href="skype:Donald Barbarits?userinfo" rel="publisher" class="fa fa-skype" target="_blank"></a>		
-
-		</aside>
-
-	</section>
+	<div class="container">
+		<div class="row">
+			<div class=col-md-8>
+				<!-- <p>row 1, col 1, row 1</p> -->
+				<div class="container main">
+					<div class="row">
+						<div class=col-md-12>
+							<!-- <p>row 1, col 1, row 1, col 1</p> -->
+							<h2>About Me</h2>
+							<hr>
+						</div>
+					</div>
+					<div class="row">				
+						<div class=col-md-3 col-sm-12 col-xs-12>
+							<!-- <p>row 3, col 1, row 1, col 1</p> -->
+							<!-- <img src="./200x200.png" style="width:150px;height:150px;"> -->
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-izaWVW5sGCPPFsLz-2ZgLDcXLVag0oVOGqEnHb13NgFOpnCq" class="img-fluid" alt="Responsive image">
+<!-- 							<img src="./200x200.png" class="img-fluid" alt="Responsive image"> -->
+						</div>
+						<div class=col-md-9 col-sm-12 col-xs-12>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>						
+					</div>
+				</div>
+			</div>
+			<!-- <div class="w-100"></div> -->
+			<div class=col-md-4 col-sm-12 col-xs-12>
+				<div class="container side">
+				<!-- <p>row 1, col 2, row 1</p> -->
+					<h3>Connect with me</h3>
+					<hr>
+					<!-- <a href="#">kitty.html</a> -->
+					<a href="http://www.linkedin.com/in/donbarbarits/" rel="publisher" class="fa fa-linkedin img-fluid" target="_blank"></a>
+					<!-- links for about  -->
+					<a href="https://www.facebook.com/donald.barbarits/" rel="publisher" class="fa fa-facebook img-fluid" target="_blank"></a>
+					<!-- link for portfolio -->
+					<a href="skype:Donald Barbarits?userinfo" rel="publisher" class="fa fa-skype img-fluid" target="_blank"></a>
+				</div>		
+			</div>
+		</div>
+	</div>
 
 	<!-- <hr> -->
 	<footer>
