@@ -1,165 +1,75 @@
-
 body{
 	background-color: #e6e6e6;
 }
-
-header{
-	background-color: #ffffff;
-	/*height: 80px;*/
-	/*border-bottom: 2px;*/
-	/*border-color: #cccccc;*/
-/*	border not seen??
-*/}
 .navbar-brand{
-	font-size: 40px;
-	color: white;
+	font-size: 45px;
+	color: #ffffff;
 	background-color: #4aaaa5;
+	padding: 0px 20px 0px 20px;
+	margin-bottom: 0px;
 }
 .navbar{
 	padding: 0px;
+	border-bottom: 2px;
+	border-color: #cccccc
 }
-.container{
-
+div.container.bg-white{
+	margin: 30px 30px 30px 0px;
+	padding: 0px 25px 0px 25px;
 }
-.main{
-	width: 650px;
-	background-color: #ffffff;
-	margin-top: 40px;
-	margin-right: 40px;
-	margin-bottom: 40px;
-	/*padding: 40px;*/
-	/*float: left;*/
-}
-.side{
-	background-color: #ffffff;
-	width: 270px;
-/*	padding: 20px;*/
-	margin-top: 40px;
-	margin-left: 40px;
-}
-
-
-body{
-	/*background-color: #e6e6e6;*/
+a.navi-link{
+	color: #4aaaa5;
 }
 h1, h2{
 	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-section{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, san-serif;
-}
-
-h1{
-	/*margin-left: 125px;*/
-	padding: 20px;
-	/*width: 30%;*/
-	/*font-size: 40px;*/
-/*	color: white;
-	background-color: #4aaaa5;
-	text-align: center;
-	float: left;*/
-}
-section#top{
-	margin-right: 30px;
-	padding: 32px;
-	float: right;
-	align-self: center;
-}
-.next{
-	padding: 10px;
-}
-
-section#mid{
-	clear: both;
-	margin: 40px;
-	margin-left: 125px;
-	height: 400px;
-}
-main{
-	width: 650px;
-	background-color: #ffffff;
-	padding: 40px;
-	float: left;
-}
-aside{
-	width: 270px;
-	background-color: #ffffff;
-	padding: 20px;
-	float: left;
-	margin-left: 40px;
+	color: white;
 }
 
 h2, h3 { 
 	color: #4aaaa5;
-	margin: 0px;
 }
 h2{
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 20px;
-	margin-left: 20px;
 }
 h3{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 15px;
 }
-hr{
-	margin: 0px;
-}
-h5{
-	padding-top:10px;
-	padding-bottom: 10px;
-}
-input{
-	/*margin: 20px;*/
-}
-img{
-	margin: 20px 0px 20px 10px;
-	float: left;
+h6{
+	font-size: 12px;
+	text-align: center;
 }
 .sippy{
 	width: 200px;
 	border: 5px;
 	border-color: black;
 }
-p{
-	/*float: left;*/
-	margin: 0px 0px 0px 15px;
-	padding: 20px;
-
-}
-a {
-    text-decoration: none;
-}
-h5{
-	clear: both;
-}
-h6{
-	font-size: 12px;
-	text-align: center;
-}
 .fa {
-    padding: 25px;
     font-size: 20px;
-    width: 30px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
 }
 /* Facebook */
 .fa-facebook {
+	padding: 10px;
     background: #3B5998;
     color: white;
+    text-align: center;
 }
 .fa-linkedin {
-	margin-left: 25px;
-  background: #007bb5;
-  color: white;
+	padding: 10px;
+  	background: #007bb5;
+	color: white;
+ 	text-align: center;
 }
 .fa-skype {
-  background: #00aff0;
-  color: white;
+	padding: 10px;
+	background: #00aff0;
+ 	color: white;
+ 	text-align: center;
 }
 footer{
 	clear: both;
